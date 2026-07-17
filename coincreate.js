@@ -18,7 +18,7 @@ export default function Coincreate(){
         return <h1>Error Has Occured</h1>
     }
     return (
-        <div>
+        <div className="cards">
             {
               data.map((value)=><Coincard key={value.id} coin={value}></Coincard>)  
             }
